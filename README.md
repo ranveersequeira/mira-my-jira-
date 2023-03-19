@@ -17,6 +17,9 @@ This is a full-stack project management application built with Next.js, Prisma, 
 - TypeScript: for type checking
 - Tailwind CSS: for styling
 
+### TODO
+- Types for typescript (cover all types)
+- build and deploy
 
 ## Getting Started
 To get started with the project, follow these steps:

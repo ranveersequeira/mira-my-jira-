@@ -20,6 +20,7 @@ export default async function Page({ params }) {
 
     return (
         <div className="h-full pr-6 overflow-y-auto w-1/1">
+            {/* @ts-expect-error Async Server Component */}
             <TaskCard tasks={project.tasks} title={project.name} />
         </div>
     );
