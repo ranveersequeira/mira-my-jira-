@@ -21,9 +21,9 @@ const links: LinkType = [
 
 const Sidebar = () => {
     return (
-        <Card className="h-full w-40 flex items-center justify-between flex-wrap">
-            <div className="w-full flex justify-center items-center">
-                <Image src={""} alt="Able logo" priority className="w-14" />
+        <Card className="flex flex-wrap items-center justify-between w-40 h-full">
+            <div className="flex items-center justify-center w-full">
+                <Image src={logo} alt="Able logo" priority className="w-14" />
             </div>
             {links.map((link) => (
                 <SidebarLink link={link} key={link.label} />
