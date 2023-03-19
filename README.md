@@ -1,6 +1,11 @@
 # Project Management App with Next.js, Prisma, and PostgreSQL
 This is a full-stack project management application built with Next.js, Prisma, PostgreSQL, and TypeScript. The app allows users to create projects, assign tasks to team members, and track progress.
 
+
+### Demo Account 
+- Email - user@email.com
+- Password - password
+
 ## Features
 - User authentication and authorization
 - Project creation and management
