@@ -10,7 +10,7 @@ const getRandomTaskStatus = () => {
     ];
     return statuses[Math.floor(Math.random() * statuses.length)];
 };
-
+// seed data
 async function main() {
     const user = await db.user.upsert({
         where: { email: "user@email.com" },
